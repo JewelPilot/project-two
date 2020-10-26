@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
 
 
 
@@ -19,3 +19,23 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+
+#para1 {
+  font-family: 'Cinzel', serif;
+color: deepskyblue
+}
+
+img {
+  display: block;
+  max-width: 55%;
+}
+
+p {
+color: red;
+font-family: 'Work Sans', sans-serif;
+}
+
+li{
+text-align:center;
+
+}
