@@ -36,6 +36,14 @@ font-family: 'Work Sans', sans-serif;
 }
 
 li{
-text-align:center;
+text-align:left;
+
+}
+ul#menu li {
+  display:inline;
+}
+
+h1{
+
 
 }
