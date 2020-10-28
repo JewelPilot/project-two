@@ -19,35 +19,47 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
-html {
+
+
+
+* {
   font-size: 1.875em;
+  line-height: 200%; 
 }
 
-#para1 {
+#para {
   font-family: Cinzel, serif;
   color: deepskyblue;
 }
 
+/* Restrict Maximum image size to about 55 percent*/
 img {
   display: block;
   max-width: 55%;
 }
-
+/*Add font and color to <p> elements*/
 p {
   color: red;
   font-family: "Work Sans", sans-serif;
 }
-
+/*Center all <li> elements*/
 li {
   text-align: center;
 
 }
+/*Make Header lists Horizontally pependicular to each other*/
 ul#menu li {
   display: inline;
+  font-weight: bold;
+  padding-top: 2em;
+   border: 2px solid deepskyblue;
 }
 
 h1 {
   font-family: "Shadows Into Light", cursive;
   text-align: center;
+}
 
+footer {
+  padding-top: 26px;
 }
