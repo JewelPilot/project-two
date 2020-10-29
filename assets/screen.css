@@ -60,7 +60,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   font-family: Cinzel, serif;
   color: deepskyblue;
 }
-#big {
+.big {
   font-size: 1.875em;
 }
 #note {
