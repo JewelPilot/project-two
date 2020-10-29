@@ -23,14 +23,24 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 
+
 * {
   font-size: 1.875em;
   line-height: 200%;
+  box-sizing: border-box;
 }
 
 #para {
   font-family: Cinzel, serif;
   color: deepskyblue;
+}
+#big {
+  font-size: 1.875em;
+}
+#note {
+font-size: 0.5em;
+font-style: italic;
+color: purple;
 }
 
 /* Restrict Maximum image size to about 55 percent*/
@@ -48,9 +58,7 @@ li {
   text-align: center;
 
 }
-#big {
-  font-size: 1.875em;
-}
+
 /*Make Header lists Horizontally pependicular to each other*/
 ul#menu li {
   display: inline;
