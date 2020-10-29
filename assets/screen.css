@@ -21,14 +21,40 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
-
-
-
 * {
   font-size: 1.875em;
   line-height: 200%;
   box-sizing: border-box;
 }
+
+/*Media quries for different device sizes*/
+
+@media only screen and (min-width: 37.64em) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media only screen and (min-width: 48.18em) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (min-width: 64.24em) {
+  body {
+    background-color: #ffff33;
+  }
+}
+
+
+
+.hdr {
+  font-size: 1.875em;
+
+}
+
+
 
 #para {
   font-family: Cinzel, serif;
@@ -38,9 +64,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   font-size: 1.875em;
 }
 #note {
-font-size: 0.5em;
-font-style: italic;
-color: purple;
+  font-size: 0.5em;
+  font-style: italic;
+  color: purple;
 }
 
 /* Restrict Maximum image size to about 55 percent*/
