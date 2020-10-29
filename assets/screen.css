@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
 
 
@@ -24,7 +24,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 * {
   font-size: 1.875em;
-  line-height: 200%; 
+  line-height: 200%;
 }
 
 #para {
@@ -52,7 +52,7 @@ ul#menu li {
   display: inline;
   font-weight: bold;
   padding-top: 2em;
-   border: 2px solid deepskyblue;
+  border: 2px solid deepskyblue;
 }
 
 h1 {
@@ -61,5 +61,11 @@ h1 {
 }
 
 footer {
-  padding-top: 26px;
+  padding-top: 1em;
+}
+
+figcaption {
+  font-size: 0.5em;
+  font-family: "Indie Flower", cursive;
+  line-height: 100%;
 }
