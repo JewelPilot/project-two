@@ -48,6 +48,9 @@ li {
   text-align: center;
 
 }
+#big {
+  font-size: 1.875em;
+}
 /*Make Header lists Horizontally pependicular to each other*/
 ul#menu li {
   display: inline;
