@@ -31,13 +31,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 @media only screen and (min-width: 37.64em) {
   body {
-    background-color: lightgreen;
+    background-color: lightblue;
   }
 }
 /*When phone enters landscape mode*/
 @media screen and (orientation: landscape) {
   body {
-    background-color: lightgreen;
+    background-color: lightblue;
   }
 }
 
@@ -49,7 +49,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 @media only screen and (min-width: 64.24em) {
   body {
-    background-color: #ffff33;
+    background-color: lightblue;
   }
 }
 
