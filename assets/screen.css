@@ -25,8 +25,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   font-size: 1.875em;
   line-height: 200%;
   box-sizing: border-box;
-}
+  font-family: "Shadows Into Light", cursive;
 
+}
 /*Media quries for different device sizes*/
 
 @media only screen and (min-width: 37.64em) {
@@ -63,7 +64,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 #para {
-  font-family: Cinzel, serif;
+  font-family: "Shadows Into Light", cursive;
   color: deepskyblue;
 }
 .big {
@@ -83,11 +84,12 @@ img {
 /*Add font and color to <p> elements*/
 p {
   color: red;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Shadows Into Light", cursive;
 }
 /*Center all <li> elements*/
 li {
   text-align: center;
+  font-family: "Shadows Into Light", cursive;
 
 }
 
@@ -110,6 +112,6 @@ footer {
 
 figcaption {
   font-size: 0.5em;
-  font-family: "Indie Flower", cursive;
+  font-family: "Shadows Into Light", cursive;
   line-height: 100%;
 }
